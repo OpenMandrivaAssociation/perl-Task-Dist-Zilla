@@ -1,5 +1,5 @@
 %define upstream_name    Task-Dist-Zilla
-%define upstream_version 1.100991
+%define upstream_version 1.102470
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
