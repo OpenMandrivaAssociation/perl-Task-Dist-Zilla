@@ -1,9 +1,9 @@
 %define upstream_name    Task-Dist-Zilla
-%define upstream_version 1.102470
+%define upstream_version 1.110760
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Task to install dist-zilla and all its plugins
 License:    GPL+ or Artistic
@@ -28,7 +28,6 @@ BuildRequires: perl(Dist::Zilla::Plugin::CSJEWELL::FTPUploadToOwnSite)
 BuildRequires: perl(Dist::Zilla::Plugin::CSJEWELL::SubversionDist)
 BuildRequires: perl(Dist::Zilla::Plugin::CSJEWELL::VersionGetter)
 BuildRequires: perl(Dist::Zilla::Plugin::Catalyst)
-BuildRequires: perl(Dist::Zilla::Plugin::Catalyst::Helper)
 BuildRequires: perl(Dist::Zilla::Plugin::Catalyst::New)
 BuildRequires: perl(Dist::Zilla::Plugin::ChangelogFromGit)
 BuildRequires: perl(Dist::Zilla::Plugin::CheckChangeLog)
