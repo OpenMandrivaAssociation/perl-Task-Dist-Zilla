@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 1.111681
-Release:	2
+Release:	3
 
 Summary:	Task to install dist-zilla and all its plugins
 License:	GPL+ or Artistic
