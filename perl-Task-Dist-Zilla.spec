@@ -2,13 +2,13 @@
 %define upstream_version 1.111681
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 1.111681
-Release:	3
+Version:	%{upstream_version}
+Release:	4
 
 Summary:	Task to install dist-zilla and all its plugins
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
+Url:		https://metacpan.org/dist/Task-Dist-Zilla
 Source0:	http://www.cpan.org/modules/by-module/Task/Task-Dist-Zilla-1.111681.tar.gz
 
 BuildRequires:	perl-devel
